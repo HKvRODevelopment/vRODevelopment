@@ -1,0 +1,22 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "vRO execute",
+        "type": "shell",
+        "command": "dotnet",
+        "args": [
+            "c:\\vRoastCLI\\vroast.dll",
+            "exec",
+            "-c",
+            "main",
+            "-f",
+            "${file}"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+            "reveal": "always",
+            "panel": "shared"
+        }
+    }]
+} 

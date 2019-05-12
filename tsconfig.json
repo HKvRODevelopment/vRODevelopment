@@ -1,0 +1,1 @@
+{"compilerOptions": {"lib": ["scripthost", "es5"],"skipLibCheck": true},"include": ["**/*"],"exclude": ["**/com.vmware*/*"]}
